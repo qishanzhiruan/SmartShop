@@ -9,7 +9,7 @@
 
 |交流群：smart shop 商城   |交流群：社区团购   |商业咨询   |商业咨询   |
 |---|---|---|---|
-|![输入图片说明](images/smrat%20shop%20.png)   |![输入图片说明](images/%E7%A4%BE%E5%8C%BA%E5%9B%A2%E8%B4%AD.png)   |![输入图片说明](images/%E6%9D%A8%E5%9D%A4-.png)   |![输入图片说明](images/%E9%99%88%E7%BA%A2.png)   |
+|![输入图片说明](images/smrat%20shop%20.png)   |![输入图片说明](images/%E7%A4%BE%E5%8C%BA%E5%9B%A2%E8%B4%AD.png)   |![输入图片说明](images/%E6%9D%A8%E5%9D%A4-.png)   |![输入图片说明](%E6%9C%AA%E6%A0%87%E9%A2%98-1.png)|
 |QQ群：476139879   |QQ群：556731103   |VX：18067433978   |VX：18967889883   |
 
 
