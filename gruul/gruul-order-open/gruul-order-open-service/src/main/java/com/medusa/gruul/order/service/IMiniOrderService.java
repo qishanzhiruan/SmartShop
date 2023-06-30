@@ -156,11 +156,12 @@ public interface IMiniOrderService extends IService<Order> {
      * 订单详情
      *
      * @param orderId the order id
+     * @param userId the user id
      * @return com.medusa.gruul.order.model.OrderVo order vo
      * @author alan
      * @date 2019 /11/25 22:32
      */
-    OrderVo orderInfo(Long orderId);
+    OrderVo orderInfo(Long orderId, String userId);
 
     /**
      * searchOrderEvaluate

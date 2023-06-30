@@ -112,7 +112,7 @@ public class MiniOrderController {
     @ApiOperation(value = "用户查询订单详情", notes = "用户查询订单详情")
     @GetMapping("/info/{orderId}")
     public Result<OrderVo> orderInfo(@PathVariable(value = "orderId") @NotNull Long orderId) {
-        OrderVo orderVo = miniOrderService.orderInfo(orderId);
+        OrderVo orderVo = miniOrderService.orderInfo(orderId, CurUserUtil.getHttpCurUser().getUserId());
         return Result.ok(orderVo);
     }
 

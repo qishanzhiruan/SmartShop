@@ -234,6 +234,9 @@
         FROM t_order
         WHERE
         is_deleted = 0 AND id = #{orderId}
+        <if test="userId !=null and userId!=''">
+        AND user_id = #{userId}
+        </if>
     </select>
     <select id="selectOrderVoListByIds" resultMap="OrderVoMap">
         SELECT

@@ -73,7 +73,7 @@ public class RemoteOrderServiceImpl extends ServiceImpl<OrderMapper, Order> impl
 
     @Override
     public OrderVo orderInfo(Long orderId) {
-        OrderVo vo = baseMapper.selectOrderVoById(orderId);
+        OrderVo vo = baseMapper.selectOrderVoById(orderId, null);
         vo.setProductTotalQuantity(vo.getOrderItemList().stream().mapToInt(OrderItem::getProductQuantity).sum());
         return vo;
     }
@@ -119,7 +119,7 @@ public class RemoteOrderServiceImpl extends ServiceImpl<OrderMapper, Order> impl
             //查询会员持有的积分、收货地址
             AccountInfoDto accountInfoDto = remoteMiniAccountService.accountInfo(orderDto.getUserId(),
                     Collections.singletonList(4));
-            OrderVo vo = orderMapper.selectOrderVoById(orderDto.getId());
+            OrderVo vo = orderMapper.selectOrderVoById(orderDto.getId(),null);
             sender.sendDeliveryMessage(vo, accountInfoDto.getMiniAccountOauths().getOpenId());
             sender.sendShippedOrderMessage(vo);
 
@@ -176,7 +176,7 @@ public class RemoteOrderServiceImpl extends ServiceImpl<OrderMapper, Order> impl
 
     @Override
     public Long createExchangeOrder(ExchangeOrderDto dto) {
-        OrderVo orderVo = baseMapper.selectOrderVoById(dto.getOrderId());
+        OrderVo orderVo = baseMapper.selectOrderVoById(dto.getOrderId(), null);
         //生成订单
         Order exchangeOrder = new Order();
 
@@ -247,7 +247,7 @@ public class RemoteOrderServiceImpl extends ServiceImpl<OrderMapper, Order> impl
 
     @Override
     public void closeOrder(Long afsId, BigDecimal refundAmount, Integer type, Long orderId) {
-        OrderVo order = baseMapper.selectOrderVoById(orderId);
+        OrderVo order = baseMapper.selectOrderVoById(orderId, null);
         log.info("订单数据为" + JSON.toJSONString(order));
         AfsOrder applyOrderItem = afsOrderMapper.selectById(afsId);
         order.setRefundAmount(NumberUtil.add(order.getRefundAmount(), refundAmount));

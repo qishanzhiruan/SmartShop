@@ -68,7 +68,7 @@ public interface OrderMapper extends BaseMapper<Order> {
      * @author alan
      * @date 2019 /11/25 21:54
      */
-    OrderVo selectOrderVoById(@Param(value = "orderId") Long orderId);
+    OrderVo selectOrderVoById(@Param(value = "orderId") Long orderId, @Param("userId") String userId);
 
     /**
      * selectOrderVoById

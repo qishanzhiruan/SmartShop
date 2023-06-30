@@ -186,7 +186,7 @@ public class ManageOrderServiceImpl extends ServiceImpl<OrderMapper, Order> impl
 
     @Override
     public OrderVo orderInfo(Long orderId) {
-        return baseMapper.selectOrderVoById(orderId);
+        return baseMapper.selectOrderVoById(orderId, null);
     }
 
     @Override
@@ -261,7 +261,7 @@ public class ManageOrderServiceImpl extends ServiceImpl<OrderMapper, Order> impl
         baseMapper.update(order, new LambdaQueryWrapper<Order>().in(Order::getId, orderIds));
 
         for (Long orderId : orderIds) {
-            OrderVo vo = baseMapper.selectOrderVoById(orderId);
+            OrderVo vo = baseMapper.selectOrderVoById(orderId, null);
             //查询会员持有的积分、收货地址
             AccountInfoDto accountInfoDto = remoteMiniAccountService.accountInfo(vo.getUserId(), Arrays.asList(4));
             sender.sendDeliveryMessage(vo, accountInfoDto.getMiniAccountOauths().getOpenId());

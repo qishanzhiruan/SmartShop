@@ -649,7 +649,7 @@ public class MiniOrderServiceImpl extends ServiceImpl<OrderMapper, Order> implem
         log.info("当前用户信息:" + curUserDto.toString());
         //检查账号
         checkAccount(accountInfoDto);
-        OrderVo orderVo = baseMapper.selectOrderVoById(orderId);
+        OrderVo orderVo = baseMapper.selectOrderVoById(orderId, curUserDto.getUserId());
         if (ObjectUtil.isNull(orderVo)) {
             throw new ServiceException(SystemCode.DATA_NOT_EXIST);
         }
@@ -745,7 +745,7 @@ public class MiniOrderServiceImpl extends ServiceImpl<OrderMapper, Order> implem
         order.setPayTime(LocalDateTime.now());
         order.setPayType(PayTypeEnum.WECHAT);
         baseMapper.updateById(order);
-        OrderVo vo = baseMapper.selectOrderVoById(order.getId());
+        OrderVo vo = baseMapper.selectOrderVoById(order.getId(), null);
         sender.sendPayedOrderMessage(vo);
     }
 
@@ -781,7 +781,7 @@ public class MiniOrderServiceImpl extends ServiceImpl<OrderMapper, Order> implem
         BaseOrderMessage message =
                 new BaseOrderMessage().setOrderId(orderId);
         sender.sendAutoCompletedOrderMessage(message, orderSetting.getFinishOvertime() * TimeConstants.ONE_DAY);
-        OrderVo vo = orderInfo(order.getId());
+        OrderVo vo = orderInfo(order.getId(), CurUserUtil.getHttpCurUser().getUserId());
         sender.sendReceiptOrderMessage(vo);
     }
 
@@ -873,7 +873,7 @@ public class MiniOrderServiceImpl extends ServiceImpl<OrderMapper, Order> implem
     @Override
     @Transactional(rollbackFor = Exception.class)
     public void evaluateOrder(ApiOrderEvaluateDto dto) {
-        OrderVo orderVo = baseMapper.selectOrderVoById(dto.getOrderId());
+        OrderVo orderVo = baseMapper.selectOrderVoById(dto.getOrderId(), CurUserUtil.getHttpCurUser().getUserId());
         if (ObjectUtil.isNull(orderVo)) {
             throw new ServiceException(SystemCode.DATA_NOT_EXIST);
         }
@@ -929,7 +929,7 @@ public class MiniOrderServiceImpl extends ServiceImpl<OrderMapper, Order> implem
 
     @Override
     public void evaluateOrder(Long orderId) {
-        OrderVo orderVo = baseMapper.selectOrderVoById(orderId);
+        OrderVo orderVo = baseMapper.selectOrderVoById(orderId, null);
         OrderEvaluate orderEvaluate =
                 orderEvaluateMapper.selectOne(new LambdaQueryWrapper<OrderEvaluate>().eq(OrderEvaluate::getOrderId,
                         orderVo.getId()));
@@ -961,8 +961,8 @@ public class MiniOrderServiceImpl extends ServiceImpl<OrderMapper, Order> implem
     }
 
     @Override
-    public OrderVo orderInfo(Long orderId) {
-        OrderVo vo = baseMapper.selectOrderVoById(orderId);
+    public OrderVo orderInfo(Long orderId, String userId) {
+        OrderVo vo = baseMapper.selectOrderVoById(orderId, userId);
         if (vo.getStatus().equals(OrderStatusEnum.WAIT_FOR_PAY) && ObjectUtil.isNull(vo.getExpireTime())) {
             vo.setExpireTime(vo.getCreateTime().plusSeconds(getExTime(vo.getType()) / 1000));
         }
@@ -989,7 +989,7 @@ public class MiniOrderServiceImpl extends ServiceImpl<OrderMapper, Order> implem
         order.setStatus(OrderStatusEnum.COMPLETE);
         order.setCompleteTime(LocalDateTime.now());
         baseMapper.updateById(order);
-        sender.sendCompletedOrderMessage(orderInfo(orderId));
+        sender.sendCompletedOrderMessage(orderInfo(orderId, null));
     }
 
     @Override
@@ -1100,7 +1100,7 @@ public class MiniOrderServiceImpl extends ServiceImpl<OrderMapper, Order> implem
         Order order = baseMapper.selectOne(new QueryWrapper<Order>().lambda().eq(Order::getTransactionId, message.getOutTradeNo()));
         order.setRefundTransactionId(message.getRefundId());
         baseMapper.updateById(order);
-        OrderVo vo = baseMapper.selectOrderVoById(order.getId());
+        OrderVo vo = baseMapper.selectOrderVoById(order.getId(), null);
         sender.sendRefundSuccess(vo);
     }
 }
