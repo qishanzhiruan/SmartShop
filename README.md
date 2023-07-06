@@ -4,8 +4,7 @@
 
 我们承诺 smart shop 使用的开源框架完全免费，其余功能支持定制开发。由于 SaaS 系统研发投入成本高，迄今已超过 300w 人民币。在此对【中国石油】、【贵州茅台】【轩妈蛋黄酥】等基于本系统进行二次开发的知名企业表示感谢！
 
-我们希望通过 gitee 平台能让更多的人了解 smart shop 商城系统，获得大家认可的同时也希望大家对 smartshop 提出宝贵的意见，帮助我们不断对系统进行迭代优化，使 Smart Shop 成为 **Java 程序员的首选商城框架** ！！
- :exclamation:  :exclamation:  :exclamation: 
+我们希望通过 gitee 平台能让更多的人了解 smart shop 商城系统，获得大家认可的同时也希望大家对 smartshop 提出宝贵的意见，帮助我们不断对系统进行迭代优化，使 Smart Shop 成为 **Java 程序员的首选商城框架** ！！ :exclamation:  :exclamation:  :exclamation: 
 
 
 |交流群：Smart shop 商城   |交流群：社区团购   |商业咨询      |
