@@ -145,3 +145,4 @@ Smart Shop 是一款基于 **Spring Cloud+MybatisPlus+XXL-JOB+redis+Vue** 的前
 运维：不吃辣的子奇
 
 💝 **如果觉得我们的项目对你有帮助，可点击右上角 Watch、Star 项目，获取项目第一时间更新，欢迎提交 Issues 和 PR 项目，如需需求文档、流程图联系技术获取！**
+## [更新详细说明](https://www.bgniao.cn/notice) https://www.bgniao.cn/
