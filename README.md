@@ -137,12 +137,6 @@ Smart Shop 是一款基于 **Spring Cloud** +MybatisPlus+XXL-JOB+redis+Vue 的�
 🚫 **禁止** ：将商业版源码公布至互联网，否则将追究其法律责任。
 
 
-### 新产品上线中 :point_left: 
-### smart shop 电商业务中台 :fire: :fire: :fire:
-除开源版本 我们的smart shop 电商业务中台基于java服务热插拔、大中台小前台架构思想，为您提供了高效可靠的解决方案，让您实现B2B、B2C、B2B2C等多种商业模式切换，摆脱单一商业模式的束缚，帮助您从竞争中脱颖而出！ 更多有关产品详情，敬请移步至 https://gitee.com/qisange/boss。
-
-
-
 ### 交付清单
 
 - 数据库初始化脚本
