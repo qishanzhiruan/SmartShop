@@ -86,9 +86,9 @@ Smart Shop 是一款基于 **Spring Cloud+MybatisPlus+XXL-JOB+redis+Vue** 的前
 
   数据库 ：https://gitee.com/qisange/basemall/tree/master/gruul/init-default-sql
 ### 项目演示
-|B2C   |![输入图片说明](2.jpg)   |B2B2C   |![输入图片说明](1.jpg)   |
+|B2C   |B2B2C   |
 |---|---|---|
-
+|![输入图片说明](2.jpg)|![输入图片说明](1.jpg)|
 
 ### 演示地址
 B2B2C演示地址：
