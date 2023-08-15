@@ -1,151 +1,653 @@
+﻿ <h4></h4>
 
-### 前言
-期盼已久的经过 **百万真实用户沉淀并检验** 的企业级 Smart Shop 商城系统核心框架正式开源上架啦 :tada: :tada: :tada:
+<h3 align="center">启山智软 Smart Shop JAVA 微服务电商中台</h3>
 
-我们承诺 Smart Shop 使用的开源框架完全免费，其余功能支持定制开发。由于 SaaS 系统研发投入成本高，迄今已超过 300W 人民币。在此对【中国石油】、【贵州茅台】、【轩妈蛋黄酥】等基于本系统进行二次开发的知名企业表示感谢！
+    <h4></h4>
 
-我们希望通过 Gitee 平台能让更多的人了解 Smart Shop 商城系统，获得大家认可的同时也希望大家对 Smart Shop 提出宝贵的意见，帮助我们不断对系统进行迭代优化，使 Smart Shop 成为 **Java 程序员的首选商城框架**  :exclamation:  :exclamation:  :exclamation: 
-|交流群：Smart shop商城   |交流群：社区团购   |商业咨询   |
-|---|---|---|
-|![输入图片说明](%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230722153945.jpg)|![输入图片说明](%E7%A4%BE%E5%8C%BA%E5%9B%A2%E8%B4%AD.jpg)|![输入图片说明](111.jpg)|
-|QQ群号：458320504   |QQ群号：556731103   |VX号：18158554030   |
-|   |   |   |
+    <div style="text-align: center; margin-top: 10px" align="center">
 
-### 项目介绍
-Smart Shop 是一款基于 **Spring Cloud+MybatisPlus+XXL-JOB+redis+Vue** 的前后端分离、分布式、微服务架构的 Java 商城系统，采用稳定框架开发及优化核心，减少依赖，具备出色的执行效率，扩展性、稳定性高，APP端/小程序端/H5端三端合一数据打通，Smart Shop将持续收集大家反馈不断更新迭代，并经过了生产环境**反复线上论证**和**大量真实用户数据使用**的考验。
+        <a href="https://www.bgniao.cn/" style="color: #095eab; text-decoration: none; font-weight: 600"><b>官网</b></a> |
 
-### 荣誉资质
-| ![输入图片说明](https://images.gitee.com/uploads/images/2021/0907/162352_817a9646_8533008.png "商城软著_20210907161716.png") | ![输入图片说明](https://images.gitee.com/uploads/images/2021/0814/104042_f5d3ec3b_8533008.png "布谷鸟SaaS平台.png") | ![输入图片说明](https://images.gitee.com/uploads/images/2021/0814/104233_f71a9b70_8533008.png "外观专利.png") |
-| ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+        <a href="https://pro.bgniao.cn/platform/#/" style="color: #095eab; text-decoration: none; font-weight: 600"><b>在线体验</b></a> |
 
-### 技术架构
-#### 运行环境（必备）
-- CentOS 7.0+
-- Nginx 1.10+
-- MySQL 8.0+
+        <a
 
-#### 技术选型
-|                      |                   |                                          |
-| -------------------- | ----------------- | ---------------------------------------- |
-| 技术                   | 说明                | 官网                                       |
-| Spring Cloud         | 微服务框架             | https://spring.io/projects/spring-cloud  |
-| Spring Cloud Alibaba | 微服务框架             | https://github.com/alibaba/spring-cloud-alibaba |
-| Spring Boot          | 容器+MVC 框架         | https://spring.io/projects/spring-boot   |
-| Swagger              | 文档生成工具            | https://swagger.io/                      |
-| MyBatis-Plus         | 数据层代码生成           | http://www.mybatis.org/generator/index.html |
-| RabbitMq             | 消息队列              | https://www.rabbitmq.com/                |
-| Redis                | 分布式缓存             | https://redis.io/                        |
-| Druid                | 数据库连接池            | https://github.com/alibaba/druid         |
-| OSS                  | 对象存储              | https://github.com/aliyun/aliyun-oss-java-sdk |
-| JWT                  | JWT 登录支持          | https://github.com/jwtk/jjwt             |
-| Lombok               | 简化对象封装工具          | https://github.com/rzwitserloot/lombok   |
-| Jenkins              | 自动化部署工具           | https://github.com/jenkinsci/jenkins     |
-| Docker               | 应用容器引擎            | https://www.docker.com/                  |
-| element              | 组件库               | https://element.eleme.cn/#/zh-CN         |
-| Vue.js               | 渐进式 JavaScript 框架 | https://cn.vuejs.org/                    |
-| Vue-router           | 前端路由              | https://router.vuejs.org/zh/             |
-| vuex                 | 状态管理              | https://vuex.vuejs.org/zh/               |
-| modeuse-core         | 自主开发 UI 组件        | --                                       |
-| XXL-JOB              | 分布式任务调度平台         | https://www.xuxueli.com/xxl-job/         |
-| TypeScript           | JavaScript 超集     | https://www.tslang.cn/                   |
-| eslint               | 代码质量控制            | https://eslint.org/                      |
-| hook                 | 代码质量控制            |                                          |
-| uniapp               | 小程序模板             | https://uniapp.dcloud.io/README          |
-| Sonarqube            | 代码质量控制            | https://www.sonarqube.org/               |
-| --------             | -------           | -----------------------------------技术    |
+            href="https://meizi2022.yuque.com/pm14ry/ooc7p0"
 
-#### 业务架构
-![](https://images.gitee.com/uploads/images/2021/0706/161344_d0a423b6_8533008.png "Smart Shop系统架构图.png") 
-- gruul-platform-open 平台模块
-- gruul-account-open 账户模块
-- gruul-gateway-open 网关
-- gruul-order-open 订单模块
-- gruul-goods-open 商品模块
-- gruul-payment-open 支付模块
-- gruul-oss-openOSS 模块
-- gruul-afs-open 售后模块
-- gruul-shops-open 店铺模块
-- gruul-common-open 公共模块
-- gruul-logistics-open 物流模块
-- gruul-sms-open 短信模块
+            style="color: #095eab; text-decoration: none; font-weight: 600"
 
-#### 编码规范
-- 规范方式：后端严格遵守阿里编码规约，前端使用 eslint；
-- 命名统一：简介最大程度上达到了见名知意；
-- 分包明确：层级分明可快速定位到代码位置；
-- 注释完整：描述性高大量减少了开发人员的代码阅读工作量；
-- 工具规范：使用统一 jar 包避免出现内容冲突；
-- 代码整洁：可读性、维护性更高。
+            ><b>帮助中心</b></a
 
-  **代码位置**
+        >
 
-  商家端 :https://gitee.com/qisange/basemall/tree/master/group-mall-admin-source
+        | <a href="https://meizi2022.yuque.com/pm14ry/fbw2ss/etn86rql8912pdpb#67RQ" style="color: #095eab; text-decoration: none; font-weight: 600"><b>功能清单</b></a>
 
-  小程序端 :https://gitee.com/qisange/basemall/tree/master/group-shop-uniapp-wx-Source
+    </div>
 
-  后端 :https://gitee.com/qisange/basemall/tree/master/gruul
+</div>
 
-  数据库 ：https://gitee.com/qisange/basemall/tree/master/gruul/init-default-sql
-### 项目演示
-|B2C   |B2B2C   |
-|---|---|
-|![输入图片说明](2.jpg)   |![输入图片说明](1.jpg)|
+<h4 align="center">🌟 让我们一同开创智慧商城的新纪元，用 Smart Shop 实现商业梦想！🚀</h4 >
 
-### 演示地址
-S2B2C演示地址：
-| **平台端演示地址** ：https://pro.bgniao.cn/platform/#/|
-| ---------------------------------------- |
-| **商家端演示地址** ：https://pro.bgniao.cn/shop/#/|
-| **供应商端演示地址** ：https://pro.bgniao.cn/supplier/#/sign|
+<h4>🔥 前言</h4>
 
-B2C演示地址：
-| **商业版演示地址** ：https://mall.bgniao.cn/copartner/1.3.13/sign |
-| ---------------------------------------- |
-| **H5演示地址** ：https://mall.bgniao.cn/h5/10002#/ |
+<p>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛍️ 惊喜来袭！百万真实用户亲证，企业级 Smart Shop 商城系统核心框架终于正式开源啦！🎉🎉🎉 为了帮助每个企业轻松搭建智能商城，我们重磅宣布 Smart Shop 开源框架完全免费。 与传统框架相比，此框架采用了松耦合、高内聚的JAVA微服务架构，前端采用Vue3.2搭配TypeScrip，更独具智慧，无需重复开发，让您的商城开发事半功倍！
+
+</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Smart Shop 代码规范晶熠亮眼，结构清晰简洁，引领技术新风潮，助您轻松克服技术难关，是行业的先进学习典范。 </p>
+
+<p>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在此特邀您的加入！Smart Shop商城系统助您开启商业新篇章，快速构筑商城梦。 JAVA微服务实践，加入我们，共创商城未来！💡💻🌟
+
+</p>
 
 
-### 典型客户案例
 
-##### 代购商城
+<hr />
 
-> 主要经营奢侈品代购，商品全部香港直邮发货，原先某平台购买商城源码使用，一年不到功能不满足现有需求，售卖代码方一直联系不上，后来找到我们做了新人券、用户注册实名制（代购需要）、对接物流 API、报表导出等功能，除了新人券其他的功能我们商城是满足的，所以在我们自有源码基础上做了新人券二开，二开后 **_营业额至今上百万_**
+<h4>✨ 介绍</h4>
 
-| ![输入图片说明](https://images.gitee.com/uploads/images/2021/0809/144858_d05384fd_8533008.jpeg "微信图片_20210809143329.jpg") | ![输入图片说明](https://images.gitee.com/uploads/images/2021/0809/144907_3648ce07_8533008.jpeg "微信图片_20210809143335.jpg") | ![输入图片说明](https://images.gitee.com/uploads/images/2021/0809/144917_284a0f75_8533008.jpeg "微信图片_20210809143353.jpg") | ![输入图片说明](https://images.gitee.com/uploads/images/2021/0809/144932_143ecabf_8533008.jpeg "微信图片_20210809143402.jpg") |
-| ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+<p>
 
-##### 新线科技
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启山智软是一款100%全开源且商用友好的系统，采用前后端分离开发，涵盖小程序、H5、APP和PC端，为您提供多平台支持。 我们的架构整体非常前卫，领先于时代潮流，是未来主流开发的方向。
 
-> 新线科技一家专注于计算机、软件及辅助设备、电子产品销售等科技型公司，有着自己的技术团队。前期用的是 PHP 的营销商城，近几年客户量发展较快再加上所售产品价格较高，基于长期发展肯定需要更换商城的底层架构，必然会用到 Spring Cloud，选择我们这套系统是技术成本较低的一个选择。
+</p>
 
-| ![输入图片说明](images/22d8edb51ba4af1e329aa5e300de2c8.jpg) | ![输入图片说明](images/212.jpg) | ![输入图片说明](images/213.jpg) | ![输入图片说明](images/214.jpg) |
-| ----------------------------------------------------------- | ------------------------------- | ------------------------------- | ------------------------------- |
+<p>
 
-##### 劲面堂
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启山智软秉承着先进的技术理念，采用更前沿的架构设计，使系统更加高效、稳定和易于扩展。技术的发展是不断前进的，因此我们对技术架构不断地进行更新和优化，以确保系统始终处于行业的前沿。
 
-> 劲面堂，连锁品牌有着大量忠实粉丝的餐饮公司，对用户数据尤为看中，需要有一套属于自己公司的售卖系统。随着市场变化可随时做二次开发来满足市场需求长远考虑 JAVA 微服务架构是不二之选。
+</p>
 
-| ![输入图片说明](images/010.jpg) | ![输入图片说明](images/011.jpg) | ![输入图片说明](images/012.jpg) | ![输入图片说明](images/013.jpg) |
-| ------------------------------- | ------------------------------- | ------------------------------- | ------------------------------- |
+ <p>
 
-### 特别鸣谢
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们的目标是打造更强大、更灵活、更易用的商城系统，最终成为 Java
 
-码农的心声，唯有码农能懂。在很长一段时间里团队十多个人加班到深夜，市场调研不断推翻重构才构建了 Smart Shop。
+            程序员的首选商城框架，让您的商城开发事半功倍！我们的功能一应俱全，含有限时秒杀、直播、优惠券、满减、砍价、分销、套餐、拼团、消费返利、平台抽佣，更有强大的DIY装修功能等等。
 
-在此特别鸣谢项目中付出大量心血的团队成员：
+        </p>
 
-项目发起人：启三哥
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系我们，与我们共同探索未来主流开发的精彩之处！🌟💪💻 前瞻性的架构，成就您商城梦想的不二之选！</p>
 
-产品经理：美子、美少女
+<h4>🚀 咨询我们</h4>
 
-系统总架构师：范范
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
 
-前端开发：斯巴达、罗天师 yyds、龙哥、辣条
+  <thead>
 
-后端开发：白沙群岛、老头、杰哥、阴川蝴蝶君、阿帕奇、机器猫
+    <tr>
 
-测试：聂小倩、铁柱、佩奇、十又
+      <th  width="300px" align="center" height="60">交流群：Smart shop商城</th>
 
-运维：不吃辣的子奇
+      <th  width="300px" align="center" height="60">商业咨询 | 佳佳</th>
 
-💝 **如果觉得我们的项目对你有帮助，可点击右上角 Watch、Star 项目，获取项目第一时间更新，欢迎提交 Issues 和 PR 项目，如需需求文档、流程图联系技术获取！**
-## [更新详细说明](https://www.bgniao.cn/notice) https://www.bgniao.cn/
+   <th  width="300px" align="center" height="60">商业咨询 | 桐桐</th>
+
+    </tr>
+
+  </thead>
+
+  <tbody>
+
+    <tr>
+
+      <td align="center">
+
+      <img  src="https://gitee.com/qisange/basemall/raw/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230722153945.jpg">
+
+      </td>
+
+           <td align="center">
+
+      <img  src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230814/b12384cc85134991906f1404e2eaa8b6.png">
+
+      </td>
+
+   <td align="center">
+
+      <img  src="https://gitee.com/qisange/basemall/raw/master/111.jpg">
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">QQ群号：458320504</td>
+
+      <td align="center">VX号：18106661091</td>
+
+      <td align="center">VX号：18158554030</td>
+
+    </tr>
+
+   
+
+  </tbody>
+
+</table>
+
+<h4>🚀 优 势</h4>
+
+<p align="center" >
+
+    <img  src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230814/0b71dd3daa3548e282cb5eeab3dcf27a.jpeg">
+
+</p>
+
+<h5>🚀 前端部分代码展示</h4>
+
+ <h4></h4>
+
+<p>
+
+<img src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230802/e5f91039e11d41d7843220cf61be2931.png">
+
+<img src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230802/e013423e15bc49898a83aa5766001d94.png">
+
+<img src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230802/a926ef2493124e269aceac04db9f72d2.png">
+
+<img src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230802/e81c60ad26f540659d55e306360a77c2.png">
+
+</p>
+
+<h5>🚀 后端部分代码展示</h4>
+
+<p>
+
+    <img  src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230802/efbd21f30f3844c38fa65b166b525c2e.png">
+
+    <img  src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230802/af2882bb2bc048c39110e08f9009a920.png">
+
+    <img  src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230802/4f4cab81da61424fb516563f1a65ed83.png">
+
+
+
+</p>
+
+
+
+<h4>🚀 技术架构</h4>
+
+   <img    src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230812/dd22f7150ad74ad499cd4d6ef130b46e.png"><br>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+
+  <thead>
+
+    <tr>
+
+      <th  width="300px" align="center" height="60">采用技术</th>
+
+      <th width="300px" align="center" height="60">版本</th>
+
+    </tr>
+
+  </thead>
+
+  <tbody>
+
+    <tr>
+
+      <td align="center">Java</td>
+
+      <td align="center">JDK17</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">Spring Boot</td>
+
+      <td align="center">2.7.7</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">Spring Cloud</td>
+
+      <td align="center">2021.0.4</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">Spring Security OAuth2</td>
+
+      <td align="center">2.5.0</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">Nacos</td>
+
+      <td align="center">2.1.0</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">Spring Cloud Gateway</td>
+
+      <td align="center">3.1.4</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">Sentinel</td>
+
+      <td align="center">1.8.5</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">Dubbo</td>
+
+      <td align="center">3.2.4</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">Fastjson2</td>
+
+      <td align="center">2.0.34</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">Redis</td>
+
+      <td align="center">6.2.6</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">Redisson</td>
+
+      <td align="center">3.16.7</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">RabbitMQ</td>
+
+      <td align="center">3.8.3</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">ElasticSearch</td>
+
+      <td align="center">7.14.0</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">XXL-Job</td>
+
+      <td align="center">2.3.1</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">Mysql</td>
+
+      <td align="center">8.0.24</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">Mybatis-Plus</td>
+
+      <td align="center">3.5.3.1</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">Smart-DOC</td>
+
+      <td align="center">2.5.3</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">Hutool</td>
+
+      <td align="center">5.8.16</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">Vavr</td>
+
+      <td align="center">0.10.4</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">Logback</td>
+
+      <td align="center">1.2.11</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">WxJava</td>
+
+      <td align="center">4.5.0</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">TypeScript</td>
+
+      <td align="center">4.6.4</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">Vue</td>
+
+      <td align="center">3.2.45</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">Element Plus</td>
+
+      <td align="center">2.1.1</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">Pinia</td>
+
+      <td align="center">2.0.22</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">Vite</td>
+
+      <td align="center">3.2.2</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">uni-app</td>
+
+      <td align="center">***</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">vk-uview-ui</td>
+
+      <td align="center">1.5.0</td>
+
+    </tr>
+
+
+
+  </tbody>
+
+</table>
+
+<h4>🚀 体验地址</h4>
+
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+
+        <thead>
+
+            <tr>
+
+                <th width="200px" align="center" height="60">S2B2C</th>
+
+                <th width="200px" align="center" height="60">体验地址</th>
+
+                <th width="200px" align="center" height="60">账号密码</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+
+                <td align="center">
+
+                    <a href="https://pro.bgniao.cn/platform/#/" style="color: #095eab; text-decoration: none">
+
+                        <img height="52" src="https://wimg.588ku.com/gif620/21/07/27/adc00ce503dec3414b10c74f24c39232.gif" /><br />
+
+                        <b>平台端</b>
+
+                    </a>
+
+                </td>
+
+                <td align="center"><a href="https://pro.bgniao.cn/platform/#/">https://pro.bgniao.cn/platform/#/</a></td>
+
+                <td align="center"><img src="https://gitee.com/qisange/basemall/raw/master/111.jpg" /></td>
+
+            </tr>
+
+            <tr style="background-color: initial；bac">
+
+                <td align="center">
+
+                    <a href="https://pro.bgniao.cn/shop/#/" style="color: #095eab; text-decoration: none">
+
+                        <img height="52" src="https://wimg.588ku.com/gif620/21/07/27/adc00ce503dec3414b10c74f24c39232.gif" /><br />
+
+                        <b>商家端</b>
+
+                    </a>
+
+                </td>
+
+                <td><a href="https://pro.bgniao.cn/shop/#/">https://pro.bgniao.cn/shop/#/</a></td>
+
+                <td align="center"><img src="https://gitee.com/qisange/basemall/raw/master/111.jpg" /></td>
+
+            </tr>
+
+            <tr style="background-color: initial">
+
+                <td align="center">
+
+                    <a href="https://pro.bgniao.cn/supplier/#/sign" style="color: #095eab; text-decoration: none">
+
+                        <img height="52" src="https://wimg.588ku.com/gif620/21/07/27/adc00ce503dec3414b10c74f24c39232.gif" /><br />
+
+                        <b>供应商端</b>
+
+                    </a>
+
+                </td>
+
+                <td><a href="https://pro.bgniao.cn/supplier/#/sign">https://pro.bgniao.cn/supplier/#/sign</a></td>
+
+                <td align="center"><img src="https://gitee.com/qisange/basemall/raw/master/111.jpg" /></td>
+
+            </tr>
+
+            <tr style="background-color: initial；bac">
+
+                <td align="center">
+
+                    <a href="https://pro.bgniao.cn/h5/#/" style="color: #095eab; text-decoration: none">
+
+                        <img height="52" src="https://wimg.588ku.com/gif620/21/07/27/adc00ce503dec3414b10c74f24c39232.gif" /><br />
+
+                        <b>H5端</b>
+
+                    </a>
+
+                </td>
+
+                <td><a href="https://pro.bgniao.cn/h5/#/">https://pro.bgniao.cn/h5/#/</a></td>
+
+                <td align="center"><img src="https://gitee.com/qisange/basemall/raw/master/111.jpg" /></td>
+
+            </tr>
+
+            <tr>
+
+                <td align="center">
+
+                    <div style="color: #095eab; text-decoration: none">
+
+                        <img src="https://gitee.com/qisange/basemall/raw/master/1.jpg" /><br />
+
+                        <b>小程序</b>
+
+                    </div>
+
+                </td>
+
+                <td align="center">由于账号密码不定期更新，为了方便访问请联系客服，还有O2O丶S2B2C丶B2C丶B2B等更多商业模式等您扫码咨询👉</td>
+
+                <td align="center"><img src="https://gitee.com/qisange/basemall/raw/master/111.jpg" /></td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+<h4>🚀 运行环境</h4>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+
+  <thead>
+
+    <tr>
+
+      <th  width="300px" align="center" height="60">所需环境</th>
+
+      <th  width="300px" align="center" height="60">版本</th>
+
+    </tr>
+
+  </thead>
+
+  <tbody>
+
+    <tr>
+
+      <td align="center">jdk</td>
+
+      <td align="center">17</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">maven</td>
+
+      <td align="center">***</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">node</td>
+
+      <td align="center">16.15.0</td>
+
+    </tr>
+
+    <tr>
+
+      <td align="center">npm</td>
+
+      <td align="center">8.5.5</td>
+
+    </tr>
+
+  </tbody>
+
+</table>
+
+<h4>🚀 荣誉资质</h4>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+
+  <thead>
+
+    <tr>
+
+      <th  width="300px" align="center" height="60"><img  src="https://images.gitee.com/uploads/images/2021/0907/162352_817a9646_8533008.png"></th>
+
+      <th  width="300px" align="center" height="60"><img  src="https://images.gitee.com/uploads/images/2021/0814/104042_f5d3ec3b_8533008.png"></th>
+
+  <th  width="300px" align="center" height="60">
+
+ <img  src="https://images.gitee.com/uploads/images/2021/0814/104233_f71a9b70_8533008.png">
+
+  </th>
+
+    </tr>
+
+  </thead>
+
+  </table>
+
+<h4>🚀 参与贡献-Participate in contributing</h4>
+
+<h4></h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码农的心声，唯有码农能懂。Smart Shop诞生的背后是六年的技术沉淀与团队几十余人历经多个日夜进行反复推敲与打磨，是经过对市场调研的不断推翻和重构。</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在此特别鸣谢项目中付出大量心血的团队成员：</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目发起人：启三哥</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;产品经理：美子、美少女丶沈文广</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;系统总架构师：范范丶张志保</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;前端开发：斯巴达、罗天师 yyds、龙哥、辣条丶波波丶pengyong丶SongBingYan丶木三</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;后端开发：白沙群岛、老头、杰哥、阴川蝴蝶君、阿帕奇、机器猫丶张志保丶Xiaoq丶YanAn丶Daniel丶王康</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;测试：聂小倩、铁柱、十又丶黄适丶泓宇丶谭盛</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;运维：不吃辣的子奇</p>
+
+
+
+
+
+<p align="center"><b>欢迎来到我们的开源项目！创新、协作、高质量的代码。您的关注，是我们前进的动力！ 💪✨🏆</b></p>
+
+<h4 align="center"> Welcome to our open-source project! Innovative, collaborative, high-quality code. Your star, our motivation! 💪✨🏆</h4>
