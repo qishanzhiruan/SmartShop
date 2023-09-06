@@ -1,4 +1,5 @@
  <h4></h4>
+
 <h3 align="center">
 启山智软 Smart Shop JAVA 微服务电商中台
 </h3>
@@ -13,14 +14,22 @@
         | <a href="https://meizi2022.yuque.com/pm14ry/fbw2ss/etn86rql8912pdpb#67RQ" style="color: #095eab; text-decoration: none; font-weight: 600"><b>功能清单</b></a>
    
 </div>
-
-
+ <img  src="https://gitee.com/qisange/qszr/raw/master/1.jpg">
+<h4>✨ 前言</h4>
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启山智软是一款100%全开源且商用友好的系统，采用前后端分离开发，涵盖小程序、H5、APP和PC端，为您提供多平台支持。 
+</p>
+ <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们的目标是打造更强大、更灵活、更易用的商城系统，最终成为 Java
+            程序员的首选商城框架，让您的商城开发事半功倍！我们的功能一应俱全，含有<b>限时秒杀、直播、优惠券、满减、砍价、分销、套餐、拼团、消费返利、平台抽佣，</b>更有强大的<b>DIY装修功能</b>等等。
+        </p>
 <h4>✨ 采用JAVA JDK17搭配VUE3丶TS的商城系统</h4>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在此特邀您的加入！Smart Shop商城系统助您开启商业新篇章，快速构筑商城梦。</p>
 <p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;加入QQ群,进行技术沟通和商业咨询：<b>QQ4群：476139879&nbsp;&nbsp;&nbsp;&nbsp;QQ5群：458320504</b>
 </p>
 <h4>✨项目地址</h4>
+<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点击链接，你将发现更多的惊喜！</h5>
 <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;官网
 <a  href="https://www.bgniao.cn/product?key=188">https://www.bgniao.cn/product</a>
 </h5>
@@ -40,14 +49,7 @@
 <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由于账号密码不定期更新，为了方便访问请联系客服，还有O2O丶S2B2C丶B2C丶B2B等更多商业模式等您咨询👇
 </h5>
 
-<h4>✨ 前言</h4>
-<p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启山智软是一款100%全开源且商用友好的系统，采用前后端分离开发，涵盖小程序、H5、APP和PC端，为您提供多平台支持。 
-</p>
- <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们的目标是打造更强大、更灵活、更易用的商城系统，最终成为 Java
-            程序员的首选商城框架，让您的商城开发事半功倍！我们的功能一应俱全，含有<b>限时秒杀、直播、优惠券、满减、砍价、分销、套餐、拼团、消费返利、平台抽佣，</b>更有强大的<b>DIY装修功能</b>等等。
-        </p>
+
        
 <h4>🚀 咨询我们</h4>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
