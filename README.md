@@ -18,9 +18,9 @@
 <h4>✨ 采用JAVA JDK17搭配VUE3丶TS的商城系统</h4>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在此特邀您的加入！Smart Shop商城系统助您开启商业新篇章，快速构筑商城梦。</p>
 <p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如需技术沟通和商业咨询，请加入以下QQ群联系：<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QQ4群：476139879&nbsp;&nbsp;&nbsp;&nbsp;QQ5群：458320504</h5>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;加入QQ群,进行技术沟通和商业咨询：<b>QQ4群：476139879&nbsp;&nbsp;&nbsp;&nbsp;QQ5群：458320504</b>
 </p>
-<h4>✨体验地址</h4>
+<h4>✨项目地址</h4>
 <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;官网
 <a  href="https://www.bgniao.cn/product?key=188">https://www.bgniao.cn/product</a>
 </h5>
