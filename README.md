@@ -31,20 +31,20 @@
 <h4>✨项目地址</h4>
 <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点击链接，你将发现更多的惊喜！</h5>
 <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;官网
-<a  href="https://www.bgniao.cn/product?key=188" target="_blank">https://www.bgniao.cn/product</a>
+<a  href="https://www.bgniao.cn/product?key=188" target="_blank">https://www.bgniao.cn</a>
 </h5>
 <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;平台端&nbsp;&nbsp;
-<a  href="https://pro.bgniao.cn/platform/#/">https://pro.bgniao.cn/platform/#/</a>
+<a  href="https://pro.bgniao.cn/platform/#/" target="_blank">https://pro.bgniao.cn/platform/</a>
 </h5>
 <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;商家端&nbsp;&nbsp;
-<a  href="https://pro.bgniao.cn/shop/#/">https://pro.bgniao.cn/shop/#/</a>
+<a  href="https://pro.bgniao.cn/shop/#/" target="_blank">https://pro.bgniao.cn/shop/</a>
 </h5>
 <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;供应商端&nbsp;&nbsp;
-<a  href="https://pro.bgniao.cn/supplier/#/sign">https://pro.bgniao.cn/supplier/#/sign</a>
+<a  href="https://pro.bgniao.cn/supplier/#/sign" target="_blank">https://pro.bgniao.cn/supplier/</a>
 </h5>
 </h5>
 <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H5端&nbsp;&nbsp;
-<a  href="https://pro.bgniao.cn/h5/#/">https://pro.bgniao.cn/h5/#/</a>
+<a  href="https://pro.bgniao.cn/h5/#/" target="_blank">https://pro.bgniao.cn/h5/#/</a>
 </h5>
 <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由于账号密码不定期更新，为了方便访问请联系客服，还有O2O丶S2B2C丶B2C丶B2B等更多商业模式等您咨询👇
 </h5>
