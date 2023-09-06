@@ -5,13 +5,13 @@
 </h3>
     <h4></h4>
     <div style="text-align: center; margin-top: 20px" align="center">
-        <a href="https://www.bgniao.cn/" style="color: #095eab; text-decoration: none; font-weight: 600"><b>官网</b></a> |
-        <a href="https://pro.bgniao.cn/platform/#/" style="color: #095eab; text-decoration: none; font-weight: 600"><b>在线体验</b></a> |
+        <a href="https://www.bgniao.cn/" style="color: #095eab; text-decoration: none; font-weight: 600" target="_blank"><b>官网</b></a> |
+        <a href="https://pro.bgniao.cn/platform/#/" style="color: #095eab; text-decoration: none; font-weight: 600" target="_blank"><b>在线体验</b></a> |
         <a
             href="https://meizi2022.yuque.com/pm14ry/ooc7p0"
             style="color: #095eab; text-decoration: none; font-weight: 600"
             ><b>帮助中心</b></a>
-        | <a href="https://meizi2022.yuque.com/pm14ry/fbw2ss/etn86rql8912pdpb#67RQ" style="color: #095eab; text-decoration: none; font-weight: 600"><b>功能清单</b></a>
+        | <a href="https://meizi2022.yuque.com/pm14ry/fbw2ss/etn86rql8912pdpb#67RQ" style="color: #095eab; text-decoration: none; font-weight: 600" target="_blank"><b>功能清单</b></a>
    
 </div>
  <img  src="https://gitee.com/qisange/qszr/raw/master/1.jpg">
@@ -235,42 +235,42 @@
         <tbody>
             <tr>
                 <td align="center">
-                    <a href="https://pro.bgniao.cn/platform/#/" style="color: #095eab; text-decoration: none">
+                    <a href="https://pro.bgniao.cn/platform/#/" style="color: #095eab; text-decoration: none" target="_blank">
                         <img height="52" src="https://wimg.588ku.com/gif620/21/07/27/adc00ce503dec3414b10c74f24c39232.gif" /><br />
                         <b>平台端</b>
                     </a>
                 </td>
-                <td align="center"><a href="https://pro.bgniao.cn/platform/#/">https://pro.bgniao.cn/platform/#/</a></td>
+                <td align="center"><a href="https://pro.bgniao.cn/platform/#/" target="_blank">https://pro.bgniao.cn/platform/#/</a></td>
                 <td align="center"><img src="https://gitee.com/qisange/basemall/raw/master/111.jpg" /></td>
             </tr>
             <tr style="background-color: initial；bac">
                 <td align="center">
-                    <a href="https://pro.bgniao.cn/shop/#/" style="color: #095eab; text-decoration: none">
+                    <a href="https://pro.bgniao.cn/shop/#/" style="color: #095eab; text-decoration: none" target="_blank">
                         <img height="52" src="https://wimg.588ku.com/gif620/21/07/27/adc00ce503dec3414b10c74f24c39232.gif" /><br />
                         <b>商家端</b>
                     </a>
                 </td>
-                <td><a href="https://pro.bgniao.cn/shop/#/">https://pro.bgniao.cn/shop/#/</a></td>
+                <td><a href="https://pro.bgniao.cn/shop/#/" target="_blank">https://pro.bgniao.cn/shop/#/</a></td>
                 <td align="center"><img src="https://gitee.com/qisange/basemall/raw/master/111.jpg" /></td>
             </tr>
             <tr style="background-color: initial">
                 <td align="center">
-                    <a href="https://pro.bgniao.cn/supplier/#/sign" style="color: #095eab; text-decoration: none">
+                    <a href="https://pro.bgniao.cn/supplier/#/sign" style="color: #095eab; text-decoration: none" target="_blank">
                         <img height="52" src="https://wimg.588ku.com/gif620/21/07/27/adc00ce503dec3414b10c74f24c39232.gif" /><br />
                         <b>供应商端</b>
                     </a>
                 </td>
-                <td><a href="https://pro.bgniao.cn/supplier/#/sign">https://pro.bgniao.cn/supplier/#/sign</a></td>
+                <td><a href="https://pro.bgniao.cn/supplier/#/sign" target="_blank">https://pro.bgniao.cn/supplier/#/sign</a></td>
                 <td align="center"><img src="https://gitee.com/qisange/basemall/raw/master/111.jpg" /></td>
             </tr>
             <tr style="background-color: initial；bac">
                 <td align="center">
-                    <a href="https://pro.bgniao.cn/h5/#/" style="color: #095eab; text-decoration: none">
+                    <a href="https://pro.bgniao.cn/h5/#/" style="color: #095eab; text-decoration: none" target="_blank">
                         <img height="52" src="https://wimg.588ku.com/gif620/21/07/27/adc00ce503dec3414b10c74f24c39232.gif" /><br />
                         <b>H5端</b>
                     </a>
                 </td>
-                <td><a href="https://pro.bgniao.cn/h5/#/">https://pro.bgniao.cn/h5/#/</a></td>
+                <td><a href="https://pro.bgniao.cn/h5/#/" target="_blank">https://pro.bgniao.cn/h5/#/</a></td>
                 <td align="center"><img src="https://gitee.com/qisange/basemall/raw/master/111.jpg" /></td>
             </tr>
             <tr>
