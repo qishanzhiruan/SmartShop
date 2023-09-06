@@ -1,8 +1,6 @@
  <h4></h4>
 <h3 align="center">
-
 启山智软 Smart Shop JAVA 微服务电商中台
-
 </h3>
     <h4></h4>
     <div style="text-align: center; margin-top: 20px" align="center">
@@ -13,12 +11,11 @@
             style="color: #095eab; text-decoration: none; font-weight: 600"
             ><b>帮助中心</b></a>
         | <a href="https://meizi2022.yuque.com/pm14ry/fbw2ss/etn86rql8912pdpb#67RQ" style="color: #095eab; text-decoration: none; font-weight: 600"><b>功能清单</b></a>
-    </div>
-
+   
 </div>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</p>
 <hr />
-<h4>✨ JAVA JDK17搭配VUE3丶TS商城系统</h4>
+<h4>✨ 采用JAVA JDK17搭配VUE3丶TS的商城系统</h4>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在此特邀您的加入！Smart Shop商城系统助您开启商业新篇章，快速构筑商城梦。</p>
 <p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如需技术沟通和商业咨询，请加入以下QQ群联系：<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QQ4群：476139879&nbsp;&nbsp;&nbsp;&nbsp;QQ5群：458320504</h5>
