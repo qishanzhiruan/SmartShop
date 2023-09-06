@@ -1,40 +1,57 @@
  <h4></h4>
-<h3 align="center">启山智软 Smart Shop JAVA 微服务电商中台</h3>
+<h3 align="center">
+
+启山智软 Smart Shop JAVA 微服务电商中台
+
+</h3>
     <h4></h4>
-    <div style="text-align: center; margin-top: 10px" align="center">
+    <div style="text-align: center; margin-top: 20px" align="center">
         <a href="https://www.bgniao.cn/" style="color: #095eab; text-decoration: none; font-weight: 600"><b>官网</b></a> |
         <a href="https://pro.bgniao.cn/platform/#/" style="color: #095eab; text-decoration: none; font-weight: 600"><b>在线体验</b></a> |
         <a
             href="https://meizi2022.yuque.com/pm14ry/ooc7p0"
             style="color: #095eab; text-decoration: none; font-weight: 600"
-            ><b>帮助中心</b></a
-        >
+            ><b>帮助中心</b></a>
         | <a href="https://meizi2022.yuque.com/pm14ry/fbw2ss/etn86rql8912pdpb#67RQ" style="color: #095eab; text-decoration: none; font-weight: 600"><b>功能清单</b></a>
     </div>
-</div>
-<h4 align="center">🌟 让我们一同开创智慧商城的新纪元，用 Smart Shop 实现商业梦想！🚀</h4 >
-<h4>🔥 前言</h4>
-<p>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛍️ 惊喜来袭！百万真实用户亲证，企业级 Smart Shop 商城系统核心框架终于正式开源啦！🎉🎉🎉 为了帮助每个企业轻松搭建智能商城，我们重磅宣布 Smart Shop 开源框架完全免费。 与传统框架相比，此框架采用了松耦合、高内聚的JAVA微服务架构，前端采用Vue3.2搭配TypeScrip，更独具智慧，无需重复开发，让您的商城开发事半功倍！
-</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Smart Shop 代码规范晶熠亮眼，结构清晰简洁，引领技术新风潮，助您轻松克服技术难关，是行业的先进学习典范。 </p>
-<p>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在此特邀您的加入！Smart Shop商城系统助您开启商业新篇章，快速构筑商城梦。 JAVA微服务实践，加入我们，共创商城未来！💡💻🌟
-</p>
 
+</div>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</p>
 <hr />
-<h4>✨ 介绍</h4>
+<h4>✨ JAVA JDK17搭配VUE3丶TS商城系统</h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在此特邀您的加入！Smart Shop商城系统助您开启商业新篇章，快速构筑商城梦。</p>
 <p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启山智软是一款100%全开源且商用友好的系统，采用前后端分离开发，涵盖小程序、H5、APP和PC端，为您提供多平台支持。 我们的架构整体非常前卫，领先于时代潮流，是未来主流开发的方向。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如需技术沟通和商业咨询，请加入以下QQ群联系：<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QQ4群：476139879&nbsp;&nbsp;&nbsp;&nbsp;QQ5群：458320504</h5>
 </p>
+<h4>✨体验地址</h4>
+<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;官网
+<a  href="https://www.bgniao.cn/product?key=188">https://www.bgniao.cn/product</a>
+</h5>
+<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;平台端&nbsp;&nbsp;
+<a  href="https://pro.bgniao.cn/platform/#/">https://pro.bgniao.cn/platform/#/</a>
+</h5>
+<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;商家端&nbsp;&nbsp;
+<a  href="https://pro.bgniao.cn/shop/#/">https://pro.bgniao.cn/shop/#/</a>
+</h5>
+<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;供应商端&nbsp;&nbsp;
+<a  href="https://pro.bgniao.cn/supplier/#/sign">https://pro.bgniao.cn/supplier/#/sign</a>
+</h5>
+</h5>
+<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H5端&nbsp;&nbsp;
+<a  href="https://pro.bgniao.cn/h5/#/">https://pro.bgniao.cn/h5/#/</a>
+</h5>
+<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由于账号密码不定期更新，为了方便访问请联系客服，还有O2O丶S2B2C丶B2C丶B2B等更多商业模式等您咨询👇
+</h5>
+
+<h4>✨ 前言</h4>
 <p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启山智软秉承着先进的技术理念，采用更前沿的架构设计，使系统更加高效、稳定和易于扩展。技术的发展是不断前进的，因此我们对技术架构不断地进行更新和优化，以确保系统始终处于行业的前沿。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启山智软是一款100%全开源且商用友好的系统，采用前后端分离开发，涵盖小程序、H5、APP和PC端，为您提供多平台支持。 
 </p>
  <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们的目标是打造更强大、更灵活、更易用的商城系统，最终成为 Java
-            程序员的首选商城框架，让您的商城开发事半功倍！我们的功能一应俱全，含有限时秒杀、直播、优惠券、满减、砍价、分销、套餐、拼团、消费返利、平台抽佣，更有强大的DIY装修功能等等。
+            程序员的首选商城框架，让您的商城开发事半功倍！我们的功能一应俱全，含有<b>限时秒杀、直播、优惠券、满减、砍价、分销、套餐、拼团、消费返利、平台抽佣，</b>更有强大的<b>DIY装修功能</b>等等。
         </p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系我们，与我们共同探索未来主流开发的精彩之处！🌟💪💻 前瞻性的架构，成就您商城梦想的不二之选！</p>
+       
 <h4>🚀 咨询我们</h4>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
   <thead>
@@ -65,27 +82,6 @@
   </tbody>
 </table>
 <h4>🚀 优势</h4>
-<p align="center" >
-    <img  src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230816/c05ce567d8a047f5bca812ad8f89a217.jpeg">
-</p>
-<h5>🚀 前端部分代码展示</h4>
- <h4></h4>
-<p>
-<img src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230802/e5f91039e11d41d7843220cf61be2931.png">
-<img src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230802/e013423e15bc49898a83aa5766001d94.png">
-<img src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230802/a926ef2493124e269aceac04db9f72d2.png">
-<img src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230802/e81c60ad26f540659d55e306360a77c2.png">
-</p>
-<h5>🚀 后端部分代码展示</h4>
-<p>
-    <img  src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230802/efbd21f30f3844c38fa65b166b525c2e.png">
-    <img  src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230802/af2882bb2bc048c39110e08f9009a920.png">
-    <img  src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230802/4f4cab81da61424fb516563f1a65ed83.png">
-
-</p>
-
-<h4>🚀 技术架构</h4>
-   <img    src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230812/dd22f7150ad74ad499cd4d6ef130b46e.png"><br>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
   <thead>
     <tr>
@@ -209,6 +205,21 @@
 
   </tbody>
 </table>
+<p align="center" >
+    <img  src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230816/c05ce567d8a047f5bca812ad8f89a217.jpeg">
+</p>
+
+<h5>🚀 部分代码展示</h4>
+<p>
+    <img  src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230802/efbd21f30f3844c38fa65b166b525c2e.png">
+    <img  src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230802/af2882bb2bc048c39110e08f9009a920.png">
+    <img  src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230802/4f4cab81da61424fb516563f1a65ed83.png">
+
+</p>
+
+<h4>🚀 技术架构</h4>
+   <img    src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230812/dd22f7150ad74ad499cd4d6ef130b46e.png"><br>
+
 <h4>🚀 体验地址</h4>
     <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
         <thead>
@@ -323,5 +334,4 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;运维：不吃辣的子奇</p>
 
 
-<p align="center"><b>欢迎来到我们的开源项目！创新、协作、高质量的代码。您的关注，是我们前进的动力！ 💪✨🏆</b></p>
-<h4 align="center"> Welcome to our open-source project! Innovative, collaborative, high-quality code. Your star, our motivation! 💪✨🏆</h4>
+<p align="center"><b>欢迎来到我们的开源项目！创新、协作、高质量的代码。您的Start🌟，是我们前进的动力！ 💪✨🏆</b></p>
