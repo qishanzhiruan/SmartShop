@@ -14,7 +14,7 @@
    
 </div>
 
-<hr />
+
 <h4>✨ 采用JAVA JDK17搭配VUE3丶TS的商城系统</h4>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在此特邀您的加入！Smart Shop商城系统助您开启商业新篇章，快速构筑商城梦。</p>
 <p>
