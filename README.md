@@ -79,6 +79,10 @@
   </tbody>
 </table>
 <h4>🚀 优势</h4>
+部分UI展示
+      <img  src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230906/e189a7747c1b42379d4c898b1375a70e.png">
+      <img  src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230906/f767a9e7b0cb461cba0708e17507bae9.png">
+
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
   <thead>
     <tr>
