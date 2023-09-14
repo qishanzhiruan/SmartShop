@@ -21,7 +21,7 @@
 </p>
  <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们的目标是打造更强大、更灵活、更易用的商城系统，最终成为 Java
-            程序员的首选商城框架，让您的商城开发事半功倍！我们的功能一应俱全，含有<b>限时秒杀、直播、优惠券、满减、砍价、分销、套餐、拼团、消费返利、平台抽佣，</b>更有强大的<b>DIY装修功能</b>等等。
+            程序员的首选商城框架，让您的商城开发事半功倍！我们具有多元的商业模式满足您任何使用场景的需求，有<b>S2B2C供应链商城、B2B2C多商户商城、O2O外卖商城、B2C单商户商城、社区团购、B2B批发商城等众多商业模式</b>并含有<b>限时秒杀、直播、优惠券、满减、砍价、分销、套餐、拼团、消费返利、平台抽佣、储值、同城配送、到店自提、库存、代销</b>更有强大的<b>DIY装修功能</b>等您咨询。
         </p>
 <h4>✨ 采用JAVA JDK17搭配VUE3丶TS的商城系统</h4>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在此特邀您的加入！Smart Shop商城系统助您开启商业新篇章，快速构筑商城梦。</p>
@@ -56,7 +56,7 @@
   <thead>
     <tr>
       <th  width="300px" align="center" height="60">交流群：Smart shop商城</th>
-      <th  width="300px" align="center" height="60">商业咨询 | 佳佳</th>
+
    <th  width="300px" align="center" height="60">商业咨询 | 桐桐</th>
     </tr>
   </thead>
@@ -65,16 +65,13 @@
       <td align="center">
       <img  src="https://gitee.com/qisange/basemall/raw/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230722153945.jpg">
       </td>
-           <td align="center">
-      <img  src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230814/b12384cc85134991906f1404e2eaa8b6.png">
-      </td>
+     
    <td align="center">
       <img  src="https://gitee.com/qisange/basemall/raw/master/111.jpg">
       </td>
     </tr>
     <tr>
       <td align="center">QQ群号：458320504</td>
-      <td align="center">VX号：18106661091</td>
       <td align="center">VX号：18158554030</td>
     </tr>
    
