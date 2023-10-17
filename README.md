@@ -16,8 +16,46 @@
 </div>
 <h4>✨ 前言</h4>
 <p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此仓库为启山智软推出新零售B2C商城开源项目，开源不易丶记得点点Star⭐，如咨询其他电商系统请联系下方客服。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此仓库为启山智软推出新零售B2C商城开源项目，开源项目不包含营销应用，开源不易丶记得点点Star⭐，如咨询其他电商系统请联系下方客服。
 </p>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+  <thead>
+    <tr>
+      <th  width="300px" align="center" height="60">系统产品</th>
+     <th  width="300px" align="center" height="60">开源状态</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+      <td align="center">B2C单商户商城</td>
+      <td align="center"> <b>此仓库开源</b></td>
+    </tr>
+ <tr>
+      <td align="center">社区团购</td>
+      <td align="center"> <b><a  href="https://www.bgniao.cn/" target="_blank">开源版本</a></b></td>
+    </tr>
+     <tr>
+      <td align="center">O2O外卖商城</td>
+      <td align="center"> <b><a  href="https://www.bgniao.cn/" target="_blank">商业咨询版本</a></b></td>
+    </tr>
+ <tr>
+      <td align="center">B2B批发商城</td>
+      <td align="center"> <b><a  href="https://www.bgniao.cn/" target="_blank">商业咨询版本</a></b></td>
+    </tr>
+ <tr>
+      <td align="center">
+     S2B2C供应链商城
+      </td>
+   <td align="center">
+ <b><a  href="https://www.bgniao.cn/" target="_blank">商业咨询版本</a></b>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">B2B2C多商户商城</td>
+      <td align="center"> <b><a  href="https://www.bgniao.cn/" target="_blank">商业咨询版本</a></b></td>
+    </tr>
+  </tbody>
+</table>
 <h4>✨ 介绍</h4>
 <p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启山智软是一款100%全开源且商用友好的系统，采用前后端分离开发，涵盖小程序、H5、APP和PC端，为您提供多平台支持。 
