@@ -32,7 +32,7 @@
     </tr>
  <tr>
       <td align="center">社区团购</td>
-      <td align="center"> <b><a  href="https://www.bgniao.cn/" target="_blank">开源版本</a></b></td>
+      <td align="center"> <b><a  href="https://gitee.com/qisange/group_purchase2.0" target="_blank">开源版本</a></b></td>
     </tr>
      <tr>
       <td align="center">O2O外卖商城</td>
