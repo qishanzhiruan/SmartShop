@@ -16,7 +16,7 @@
 </div>
 <h4>✨ 前言</h4>
 <p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此仓库为启山智软推出新零售B2C商城开源项目，开源项目不包含营销应用，开源不易丶记得点点Star⭐，如咨询其他电商系统请联系下方客服。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此仓库为启山智软推出新零售B2C商城开源项目，开源项目不包含营销应用，开源不易丶记得点点Star⭐，如咨询其他电商系统或营销应用相关源码请联系下方客服。
 </p>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
   <thead>
