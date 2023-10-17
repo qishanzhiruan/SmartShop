@@ -14,8 +14,11 @@
         | <a href="https://meizi2022.yuque.com/pm14ry/fbw2ss/etn86rql8912pdpb#67RQ" style="color: #095eab; text-decoration: none; font-weight: 600" target="_blank"><b>功能清单</b></a>
    
 </div>
-
 <h4>✨ 前言</h4>
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此仓库为启山智软推出的社区团购开源项目，开源不易丶记得点点Star⭐，如咨询其他电商系统请联系下方客服。
+</p>
+<h4>✨ 介绍</h4>
 <p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启山智软是一款100%全开源且商用友好的系统，采用前后端分离开发，涵盖小程序、H5、APP和PC端，为您提供多平台支持。 
 </p>
