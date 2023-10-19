@@ -72,7 +72,7 @@
 <h4>✨项目地址</h4>
 <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点击链接，你将发现更多的惊喜！</h5>
 <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;官网
-<a  href="https://https://www.73app.cn/" target="_blank">https://www.73app.cn/</a>
+<a  href="https://www.73app.cn/" target="_blank">https://www.73app.cn/</a>
 </h5>
 <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;平台端&nbsp;&nbsp;
 <a  href="https://pro.bgniao.cn/platform/#/" target="_blank">https://pro.bgniao.cn/platform/</a>
