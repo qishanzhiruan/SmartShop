@@ -5,7 +5,7 @@
 </h2>
     <h4></h4>
     <div style="text-align: center; margin-top: 20px" align="center">
-        <a href="https://www.bgniao.cn/" style="color: #095eab; text-decoration: none; font-weight: 600" target="_blank"><b>官网</b></a> |
+        <a href="https://www.73app.cn/" style="color: #095eab; text-decoration: none; font-weight: 600" target="_blank"><b>官网</b></a> |
         <a href="https://pro.bgniao.cn/platform/#/" style="color: #095eab; text-decoration: none; font-weight: 600" target="_blank"><b>在线体验</b></a> |
         <a
             href="https://meizi2022.yuque.com/pm14ry/ooc7p0"
