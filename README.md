@@ -36,23 +36,23 @@
     </tr>
      <tr>
       <td align="center">O2O外卖商城</td>
-      <td align="center"> <b><a  href="https://www.bgniao.cn/" target="_blank">商业版咨询</a></b></td>
+      <td align="center"> <b><a  href="https://www.73app.cn/" target="_blank">商业版咨询</a></b></td>
     </tr>
  <tr>
       <td align="center">B2B批发商城</td>
-      <td align="center"> <b><a  href="https://www.bgniao.cn/" target="_blank">商业版咨询</a></b></td>
+      <td align="center"> <b><a  href="https://www.73app.cn/" target="_blank">商业版咨询</a></b></td>
     </tr>
  <tr>
       <td align="center">
      S2B2C供应链商城
       </td>
    <td align="center">
- <b><a  href="https://www.bgniao.cn/" target="_blank">商业版咨询</a></b>
+ <b><a  href="https://www.73app.cn/" target="_blank">商业版咨询</a></b>
       </td>
     </tr>
     <tr>
       <td align="center">B2B2C多商户商城</td>
-      <td align="center"> <b><a  href="https://www.bgniao.cn/" target="_blank">商业版咨询</a></b></td>
+      <td align="center"> <b><a  href="https://www.73app.cn/" target="_blank">商业版咨询</a></b></td>
     </tr>
   </tbody>
 </table>
