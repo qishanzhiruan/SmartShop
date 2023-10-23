@@ -5,7 +5,7 @@
 </h2>
     <h4></h4>
     <div style="text-align: center; margin-top: 20px" align="center">
-        <a href="https://www.73app.cn/" style="color: #095eab; text-decoration: none; font-weight: 600" target="_blank"><b>官网</b></a> |
+        <a href="https://www.bgniao.cn/" style="color: #095eab; text-decoration: none; font-weight: 600" target="_blank"><b>官网</b></a> |
         <a href="https://pro.bgniao.cn/platform/#/" style="color: #095eab; text-decoration: none; font-weight: 600" target="_blank"><b>在线体验</b></a> |
         <a
             href="https://meizi2022.yuque.com/pm14ry/ooc7p0"
@@ -36,23 +36,23 @@
     </tr>
      <tr>
       <td align="center">O2O外卖商城</td>
-      <td align="center"> <b><a  href="https://www.73app.cn/" target="_blank">商业版咨询</a></b></td>
+      <td align="center"> <b><a  href="https://www.bgniao.cn/" target="_blank">商业版咨询</a></b></td>
     </tr>
  <tr>
       <td align="center">B2B批发商城</td>
-      <td align="center"> <b><a  href="https://www.73app.cn/" target="_blank">商业版咨询</a></b></td>
+      <td align="center"> <b><a  href="https://www.bgniao.cn/" target="_blank">商业版咨询</a></b></td>
     </tr>
  <tr>
       <td align="center">
      S2B2C供应链商城
       </td>
    <td align="center">
- <b><a  href="https://www.73app.cn/" target="_blank">商业版咨询</a></b>
+ <b><a  href="https://www.bgniao.cn/" target="_blank">商业版咨询</a></b>
       </td>
     </tr>
     <tr>
       <td align="center">B2B2C多商户商城</td>
-      <td align="center"> <b><a  href="https://www.73app.cn/" target="_blank">商业版咨询</a></b></td>
+      <td align="center"> <b><a  href="https://www.bgniao.cn/" target="_blank">商业版咨询</a></b></td>
     </tr>
   </tbody>
 </table>
@@ -72,7 +72,7 @@
 <h4>✨项目地址</h4>
 <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点击链接，你将发现更多的惊喜！</h5>
 <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;官网
-<a  href="https://www.73app.cn/" target="_blank">https://www.73app.cn/</a>
+<a  href="https://www.bgniao.cn/" target="_blank">https://www.bgniao.cn/</a>
 </h5>
 <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;平台端&nbsp;&nbsp;
 <a  href="https://pro.bgniao.cn/platform/#/" target="_blank">https://pro.bgniao.cn/platform/</a>
