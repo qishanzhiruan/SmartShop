@@ -56,6 +56,7 @@
     </tr>
   </tbody>
 </table>
+<p><b><a href="https://www.73app.cn/productDetail/1720389198651572226" target="_blank">本公司新品上市，灯塔APS-高级生产排程系统，截至2023-12-30，咨询低至5折~~~</a></b></p>
 <h4>✨ 介绍</h4>
 <p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启山智软是一款100%全开源且商用友好的系统，采用前后端分离开发，涵盖小程序、H5、APP和PC端，为您提供多平台支持。 
