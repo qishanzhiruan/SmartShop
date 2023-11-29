@@ -56,11 +56,10 @@
     </tr>
   </tbody>
 </table>
-<p><b><a href="https://www.73app.cn/productDetail/1720389198651572226" target="_blank">本公司新品上市，灯塔APS-高级生产排程系统，截至2023-12-30，咨询低至5折~~~</a></b></p>
-<h4>✨ 介绍</h4>
-<p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启山智软是一款100%全开源且商用友好的系统，采用前后端分离开发，涵盖小程序、H5、APP和PC端，为您提供多平台支持。 
+
 </p>
+<h4>✨ 介绍</h4>
+
  <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们的目标是打造更强大、更灵活、更易用的商城系统，最终成为 Java
             程序员的首选商城框架，让您的商城开发事半功倍！我们具有多元的商业模式满足您任何使用场景的需求，有<b>S2B2C供应链商城、B2B2C多商户商城、O2O外卖商城、B2C单商户商城、社区团购、B2B批发商城等众多商业模式</b>并含有<b>限时秒杀、直播、优惠券、满减、砍价、分销、套餐、拼团、消费返利、平台抽佣、储值、同城配送、到店自提、库存、代销</b>更有强大的<b>DIY装修功能</b>等您咨询。
@@ -119,6 +118,9 @@
    
   </tbody>
 </table>
+<p align="center"><b><a href="https://www.73app.cn/productDetail/1720389198651572226" target="_blank">本公司新品上市，灯塔APS-高级生产排程系统，截至2023-12-30，咨询低至5折~~~ <img  src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/official-website/20231108/4ed19140b1904b169ae57b6a3e23a468.png?imageView2/q/60"></a></b></p>
+<p>
+
 <h4>🚀 优势</h4>
 部分UI展示
       <img  src="https://medusa-small-file-1253272780.cos.ap-shanghai.myqcloud.com/gruul/20230906/e189a7747c1b42379d4c898b1375a70e.png">
